@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "848983653050",
+    "firebase_url": "https://docredtest.firebaseio.com",
+    "project_id": "docredtest",
+    "storage_bucket": "docredtest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848983653050:android:206311dc8e2cb06381a083",
+        "android_client_info": {
+          "package_name": "com.jhonatan.docredtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848983653050-p8v1lk2dtmp7om9hr11an8istupqcg1d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jhonatan.docredtest",
+            "certificate_hash": "6cf7adad9e66979c1a8367c85dbb92557de4d3e8"
+          }
+        },
+        {
+          "client_id": "848983653050-vn2o8t6jd6q0uujc8rt1tb4dalkgf7js.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyOCpycWbHjlTrBIiQ1WDP50PShQ7xEMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848983653050-vn2o8t6jd6q0uujc8rt1tb4dalkgf7js.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
