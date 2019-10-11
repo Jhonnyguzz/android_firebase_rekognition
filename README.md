@@ -3,7 +3,7 @@
 ## Instalación
 
 * Con AndroidStudio 3.5.1 abra el proyecto y ejecute Gradle para descargar dependencias
-* Escriba su Access Id y Secret Key de AWS en el Archivo AWSAsyncTask (Recuerde que el servicio genera costo)
+* Escriba su Access Id y Secret Key de AWS en el Archivo AWSAsyncTask.java linea 24 y 25 (Recuerde que el servicio genera costo)
 * Luego corra la aplicación en un dispositivo móvil o genere el APK e instálelo en el teléfono
 * Necesita conexión a internet
 
@@ -24,17 +24,17 @@ keytool -exportcert -list -v -alias prodkey -keystore <previous_path>\.android\p
 keytool -list -v -keystore <previous_path>\.android\debug.keystore -alias androiddebugkey -storepass android -keypass android
 
 ### Autenticacion en Firebase: MVP
-https://medium.com/@oscaretnia/implementa-autenticaci%C3%B3n-en-android-con-firebase-mvp-f76fdc0cc785
+* https://medium.com/@oscaretnia/implementa-autenticaci%C3%B3n-en-android-con-firebase-mvp-f76fdc0cc785
 
 ### Registrar usuarios en Firebase
-https://medium.com/@jonathanvazna/firebase-registro-email-password-4468882a3a6f
+* https://medium.com/@jonathanvazna/firebase-registro-email-password-4468882a3a6f
 
 ### Manejar usuarios Firebase:
-https://firebase.google.com/docs/auth/web/manage-users?hl=es-419
-https://firebase.google.com/docs/auth/users?hl=es-419
+* https://firebase.google.com/docs/auth/web/manage-users?hl=es-419
+* https://firebase.google.com/docs/auth/users?hl=es-419
 
 ### Detectar las caras:
-https://firebase.google.com/docs/ml-kit/android/detect-faces
-https://medium.com/@carlosgub/ml-kit-detecci%C3%B3n-de-rostros-d5b4c03a3280
-https://medium.com/how-to-integrate-aws-rekognition-in-android/aws-rekognition-in-android-9d16f16d591c
-https://github.com/aws-amplify/aws-sdk-android/issues/639
+* https://firebase.google.com/docs/ml-kit/android/detect-faces
+* https://medium.com/@carlosgub/ml-kit-detecci%C3%B3n-de-rostros-d5b4c03a3280
+* https://medium.com/how-to-integrate-aws-rekognition-in-android/aws-rekognition-in-android-9d16f16d591c
+* https://github.com/aws-amplify/aws-sdk-android/issues/639
