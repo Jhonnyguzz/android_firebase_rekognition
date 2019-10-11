@@ -20,8 +20,8 @@
 
 ### Generar el SHA1 Para Firebase
 
-keytool -exportcert -list -v -alias prodkey -keystore <previous_path>\.android\prodkey.keystore
-keytool -list -v -keystore <previous_path>\.android\debug.keystore -alias androiddebugkey -storepass android -keypass android
+* keytool -exportcert -list -v -alias prodkey -keystore <previous_path>\.android\prodkey.keystore
+* keytool -list -v -keystore <previous_path>\.android\debug.keystore -alias androiddebugkey -storepass android -keypass android
 
 ### Autenticacion en Firebase: MVP
 * https://medium.com/@oscaretnia/implementa-autenticaci%C3%B3n-en-android-con-firebase-mvp-f76fdc0cc785
